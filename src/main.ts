@@ -7,8 +7,8 @@ async function bootstrap() {
 
   // Configurar títulos de documentación
   const options = new DocumentBuilder() 
-    .setTitle('MongoDB Book REST API')
-    .setDescription('API REST para libros con MongoDB')
+    .setTitle('MongoDB Profesores REST API')
+    .setDescription('API REST para administrar profesores con MongoDB')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, options); 
